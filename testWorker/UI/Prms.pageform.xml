@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"   DataType="testWorker.Prms,testWorker" Priority="0" RightName="Page:DokumentImportParams" xmlns="http://www.enova.pl/schema/form.xsd">
+  <Page Name="DayTrackPage" CaptionHtml="Ogólne" DataContext="{DataSource}" >
+    <Stack>
+      <Group CaptionHtml="OGÓLNE" >
+        <Row>
+          <Field CaptionHtml="Data od:"  Class="LeftAlign" Width="22" OuterWidth="50" EditValue="{Data}"  />
+          <Field CaptionHtml="Opis towaru"  Class="LeftAlign" Width="22" OuterWidth="50" EditValue="{Opis}"  />
+        </Row>
+      </Group>
+    </Stack>
+  </Page>
+</DataForm>

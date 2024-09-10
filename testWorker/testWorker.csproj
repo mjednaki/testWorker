@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Soneta.Sdk">
+  <PropertyGroup>
+    <TargetFramework>$(SonetaTargetFramework)</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Update="Soneta.Products.Modules" Version="2406.2.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dbinit\" />
+  </ItemGroup>
+</Project>
